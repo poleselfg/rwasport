@@ -1,0 +1,516 @@
+html,
+body {
+  width: 100%;
+}
+
+.logo {
+  width: 200px;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.row2 {
+  border: 0px;
+  margin-right: 0;
+  margin-left: 0;
+  max-width: 100vw;
+  display: inline-block;
+}
+
+.navbarr {
+  background: #2a2b2a;
+  height: 8vh;
+  font-family: "raleway" "bold";
+}
+
+.foot {
+  background: #2a2b2a;
+  height: 15vh;
+  font-family: "raleway" "bold";
+}
+
+.color {
+  background: #2a2b2a;
+}
+
+.fondo {
+  background: black;
+  opacity: 0.7;
+  padding: 10px 10px;
+  border-radius: 4px;
+  font-family: "raleway" "bold";
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.act {
+  text-decoration: none;
+  padding: 5px 5px;
+  color: white;
+}
+
+.act:active,
+.act:hover {
+  background-color: #a44152;
+  border-radius: 5%;
+  color: #fff !important;
+  text-decoration: none;
+  padding: 5px 9px;
+}
+
+.inner {
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+  height: 200px;
+}
+
+.fondo h5 {
+  font-family: "raleway" "bold";
+  color: whitesmoke;
+}
+
+.fondo h2 {
+  font-family: "raleway";
+  color: white;
+  padding-right: 600px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  letter-spacing: 2px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+
+.carousel {
+  max-width: 100%;
+  height: auto;
+}
+
+.carimg {
+  max-height: 94vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 90%;
+}
+
+.desde {
+  background: #353635;
+  color: aliceblue;
+  padding-top: 15px;
+
+  text-align: center;
+}
+
+.wid {
+  width: 100vw;
+}
+
+.servicio {
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+
+.desde h1 {
+  padding-bottom: 20px;
+  font-family: "raleway" "bold";
+}
+
+.desde p {
+  font-family: "raleway";
+}
+
+.titleshadow {
+  font-family: "raleway" "bold";
+  letter-spacing: 0.1em;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.img-responsive {
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: fill;
+}
+
+.img-responsive2 {
+  width: 100%;
+  max-height: 500px;
+
+  object-fit: cover;
+}
+
+datasvg {
+  padding: 30px;
+}
+
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.img-responsive:hover {
+  position: relative;
+  transform: scale(1.1);
+  z-index: 9999;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 2%;
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.2);
+}
+
+.imgcard {
+  border-radius: 50%;
+  height: 220px;
+  width: 220px;
+  text-align: center;
+  display: block;
+}
+
+.contai {
+  min-width: 100%;
+  height: auto;
+}
+
+.card {
+  border: none;
+  max-height: 38vh;
+  width: auto;
+  background: transparent;
+}
+
+.cart-text {
+  font-family: "raleway";
+}
+
+.blanco {
+  color: white;
+  font-family: "raleway" "bold";
+}
+
+.card img {
+  transition: transform 0.3s, filter 0.4s ease-in-out;
+  filter: grayscale(100%);
+}
+
+.card img:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+.card img title {
+  height: 20px;
+}
+
+.foot1 {
+  background: #353635;
+  color: white;
+}
+
+.foot1 h1 {
+  font-family: "raleway" "bold";
+  text-align: center;
+  padding: 20px 15px;
+}
+
+.foot1 p {
+  font-family: "raleway";
+  padding: 15px 15px;
+}
+
+.foot2 {
+  color: #353635;
+  background: white;
+}
+
+.foot2 h1 {
+  font-family: "raleway" "bold";
+  text-align: center;
+  padding: 20px 15px;
+}
+
+.foot2 p {
+  font-family: "raleway";
+  padding: 15px 15px;
+}
+
+.fab {
+  size: 30px;
+  padding: 10px 10px;
+}
+
+/* CODIGO FORM CONTACTO*/
+
+@import url("https://fonts.googleapis.com/css?family=Mukta+Mahee:200,400");
+
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+textarea {
+  background: rgba(164, 65, 82, 1) 100%;
+}
+
+.container22 {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  background: #2a2b2a;
+}
+
+.contact {
+  background: #2a2b2a;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.title {
+  margin-bottom: 30px;
+  font-family: "Ralway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.wrapper {
+  background: #2a2b2a;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(164, 65, 82, 0.5);
+  padding: 27.5px;
+}
+
+#contactForm {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+    "name"
+    "email"
+    "company"
+    "phone"
+    "message";
+}
+
+.required-field {
+  grid-column: 1 / 2;
+}
+
+.submit-button {
+  grid-column: 2 / 3;
+}
+
+.name-field {
+  grid-area: name;
+  grid-column: 1 / 3;
+}
+
+.email-field {
+  grid-area: email;
+  grid-column: 1 / 3;
+}
+
+.company-field {
+  grid-area: company;
+  grid-column: 1 / 3;
+}
+
+.phone-field {
+  grid-area: phone;
+  grid-column: 1 / 3;
+}
+
+.message-field {
+  grid-area: message;
+  grid-column: 1 / 3;
+}
+
+/* FORM STYLES */
+.lr {
+  border-color: #a44152;
+  size: 10px;
+}
+
+.fanta {
+  width: auto;
+  height: 200px;
+  display: inline-block;
+  padding: 0px 22%;
+}
+
+.contact-us {
+  margin: 0 0 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #5dc3f2;
+}
+
+.contact form {
+  border: 0;
+}
+
+.contact form label {
+  display: block;
+}
+
+.contact form p {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 12px;
+  color: rgb(182, 187, 190);
+}
+
+.contact form input,
+.contact form textarea {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  width: 100%;
+  padding: 0.4em 0.8em;
+  background: rgba(249, 250, 250, 0.5);
+  border: 3px solid rgba(74, 86, 96, 0.1);
+  border-radius: 2.5px;
+  outline-color: black;
+}
+
+.contact form button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  background: #a44152;
+  width: 90px;
+  height: 30px;
+  border: 0;
+  border-radius: 15px;
+}
+
+.submit-button {
+  align-self: center;
+  justify-self: end;
+  color: #a44152;
+}
+
+.contact form button:hover,
+.contact form button:focus {
+  background: #a44152;
+  color: #fff;
+  outline: 0;
+  transition: background-color 0.3s ease-out;
+}
+
+.required-field {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 10px;
+  color: white;
+  align-self: center;
+  justify-self: start;
+}
+
+span {
+  color: #2a2b2a;
+}
+
+.alert {
+  margin-bottom: 1em;
+  padding: 10px;
+  background: #49b0e7;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  border-radius: 2.5px;
+  display: none;
+}
+
+/* LARGE SCREENS */
+
+@media (min-width: 500px) {
+  #contactForm {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "name company"
+      "email phone"
+      "message message";
+  }
+
+  .name-field {
+    grid-area: name;
+    grid-column: 1 / 2;
+  }
+
+  .email-field {
+    grid-area: email;
+    grid-column: 1 / 2;
+  }
+
+  .company-field {
+    grid-area: company;
+    grid-column: 2 / 3;
+  }
+
+  .phone-field {
+    grid-area: phone;
+    grid-column: 2 / 3;
+  }
+
+  .message-field {
+    grid-area: message;
+    grid-column: 1 / 3;
+  }
+}
+
+/* cards*/
+
+.fluido {
+  max-width: 1200px;
+}
+
+.card {
+  margin: 10px;
+  padding-bottom: 20px;
+}
+
+.card-title {
+  margin-top: 5px;
+}
+
+.card img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+[class*="rowa"] {
+  margin-bottom: 1em;
+  justify-content: center;
+}
+
+[class*="cola"] {
+  background: #efefef;
+  border: 1px solid #ddd;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  width: 100%;
+}
